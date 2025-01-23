@@ -3,80 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JupiMoon</title>
+    <title>JupiMoon - Empowering Jupiter</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header Section -->
+    <!-- Header -->
     <header>
-        <div class="logo">
-            <h1>JupiMoon</h1>
-            <p>Empowering Jupiter - The Meme Revolution</p>
+        <div class="container">
+            <div class="logo">
+                <h1>JupiMoon</h1>
+                <p>Empowering Jupiter Through Meme Revolution</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contract">Contract</a></li>
+                    <li><a href="#game">Game</a></li>
+                    <li><a href="#community">Community</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contract">Contract</a></li>
-                <li><a href="#community">Community</a></li>
-                <li><a href="#game">Game</a></li>
-            </ul>
-        </nav>
     </header>
 
     <!-- Hero Section -->
     <section id="hero">
-        <div class="hero-content">
-            <h2>JupiMoon - The Meme of the Cosmos</h2>
-            <p>Join the intergalactic meme movement and empower Jupiter with the most fun, cosmic, and exciting token ever!</p>
+        <div class="container">
+            <h2>Welcome to JupiMoon</h2>
+            <p>Join the cosmic meme revolution and empower Jupiter with laughter, creativity, and blockchain technology.</p>
             <a href="#contract" class="btn-primary">Get JupiMoon</a>
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about">
-        <h2>About JupiMoon</h2>
-        <p>JupiMoon is a revolutionary meme token aimed at uniting the community to empower Jupiter through humor, creativity, and cosmic fun. 
-           This project merges the power of memes with blockchain innovation, making it the token of the future.</p>
+        <div class="container">
+            <h2>About JupiMoon</h2>
+            <p>JupiMoon is a meme-powered cryptocurrency designed to unite the galaxy in humor and creativity. We blend blockchain technology with a vibrant community to empower Jupiter through interstellar memes!</p>
+        </div>
     </section>
 
     <!-- Contract Section -->
     <section id="contract">
-        <h2>JupiMoon Contract Details</h2>
-        <p>Here’s how you can join the JupiMoon mission:</p>
-        <ul>
-            <li><strong>Contract Address:</strong> 0x1234...ABCD</li>
-            <li><a href="https://dexscreener.com/" target="_blank">View on DexScreener</a></li>
-            <li><a href="https://twitter.com/" target="_blank">Follow Us on Twitter</a></li>
-            <li><a href="https://t.me/" target="_blank">Join Telegram Community</a></li>
-        </ul>
-    </section>
-
-    <!-- Community Section -->
-    <section id="community">
-        <h2>Join the JupiMoon Community</h2>
-        <p>Be part of the growing movement. Share memes, collaborate, and build the future of Jupiter together!</p>
+        <div class="container">
+            <h2>Contract Details</h2>
+            <ul>
+                <li><strong>Contract Address:</strong> 0x1234...ABCD</li>
+                <li><a href="https://dexscreener.com" target="_blank">View on DexScreener</a></li>
+                <li><a href="https://twitter.com" target="_blank">Follow Us on Twitter</a></li>
+                <li><a href="https://t.me" target="_blank">Join Telegram</a></li>
+            </ul>
+        </div>
     </section>
 
     <!-- Game Section -->
     <section id="game">
-        <h2>Catch the JupiMoon</h2>
-        <p>Click on the JupiMoon as many times as you can in 30 seconds!</p>
-        <div id="game-container">
-            <img id="jupiMoon" src="images/Jupimoon.webp" alt="JupiMoon">
+        <div class="container">
+            <h2>Catch the JupiMoon</h2>
+            <p>Click on the JupiMoon as many times as you can in 30 seconds!</p>
+            <div id="game-container">
+                <img id="jupiMoon" src="images/Jupimoon.webp" alt="JupiMoon">
+            </div>
+            <div id="game-info">
+                <p>Score: <span id="score">0</span></p>
+                <p>Time Left: <span id="time">30</span>s</p>
+            </div>
+            <button id="start-game">Start Game</button>
         </div>
-        <div id="game-info">
-            <p>Score: <span id="score">0</span></p>
-            <p>Time Left: <span id="time">30</span>s</p>
-        </div>
-        <button id="start-game">Start Game</button>
     </section>
 
-    <!-- Footer Section -->
+    <!-- Community Section -->
+    <section id="community">
+        <div class="container">
+            <h2>Join the JupiMoon Community</h2>
+            <p>Be a part of the JupiMoon movement! Share memes, engage with the community, and help us empower Jupiter.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 JupiMoon. All rights reserved. Powered by the Meme Revolution.</p>
+        <div class="container">
+            <p>&copy; 2025 JupiMoon. All rights reserved.</p>
+        </div>
     </footer>
 
-    <!-- Link JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
